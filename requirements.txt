@@ -88,15 +88,4 @@ watchdog==4.0.1
 wcwidth==0.2.13
 Werkzeug==3.0.3
 wheel==0.43.0
-joblib==1.4.2
-keras==3.4.1
-matplot==0.1.9
-matplotlib==3.9.1.post1
-matplotlib-inline==0.1.7
-numpy==1.26.4
-pandas==2.2.2
-pillow==10.4.0
-scikit-learn==1.5.1
-scipy==1.14.0
-toml==0.10.2
 yfinance==0.2.41
