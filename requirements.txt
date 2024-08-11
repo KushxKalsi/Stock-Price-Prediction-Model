@@ -90,3 +90,4 @@ Werkzeug==3.0.3
 wheel==0.43.0
 yfinance==0.2.41
 keras==3.4.1
+tensorflow==2.13.0
