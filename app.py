@@ -34,6 +34,7 @@ ma_50_days=data.Close.rolling(50).mean()
 fig1=plt.figure(figsize=(8,6))
 plt.plot(ma_50_days,'r',label="Moving Array 50 Days")
 plt.plot(data.Close,'g',label="Price")
+plt.legend()
 plt.show()
 st.pyplot(fig1)
 
