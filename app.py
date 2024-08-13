@@ -47,16 +47,6 @@ plt.legend()
 plt.show()
 st.pyplot(fig2)
 
-st.subheader('Price vs Mooving Array 100 vs Mooving Array 200')
-ma_200_days=data.Close.rolling(200).mean()
-fig3=plt.figure(figsize=(8,6))
-plt.plot(ma_100_days,'r')
-plt.plot(ma_200_days,'b')
-plt.plot(data.Close,'g')
-plt.show()
-st.pyplot(fig3)
-
-
 x=[]
 y=[]
 
@@ -78,6 +68,7 @@ st.subheader('Orignal Price vs Pridiced Price')
 fig4=plt.figure(figsize=(8,6))
 plt.plot(predict,'r',label= 'Orignal Price')
 plt.plot(y,'g',label='Predicted Price')
+plt.legend()
 plt.xlabel('Time')
 plt.ylabel('Price')
 plt.show()
