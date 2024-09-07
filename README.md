@@ -1,6 +1,7 @@
 # Stock Price Prediction Model
 
 Welcome to the Stock Price Prediction Model repository! This project aims to predict stock prices using historical data and machine learning techniques. The model is hosted on Streamlit for easy interaction.
+To visit my project click this link -> https://github.com/KushxKalsi/Stock-Price-Prediction-Model
 
 ![Project Banner](Images/Home_Page_Image.png)
 ![Project_Banner](Images/Output_Image.png)
